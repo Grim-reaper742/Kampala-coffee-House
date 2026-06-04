@@ -1,0 +1,68 @@
+
+.navbar a{
+    color: #f5f5dc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    
+}
+.navbar{
+    display: flex;
+    gap: 15px;
+    padding: 10px 20px;
+    justify-content: center;
+}
+.navbar a:hover{
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+.hero{
+     background-image: url('coffee.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+   
+button{
+    padding: 15px;
+    margin: 0;
+    border: 0;
+    border-radius: 20px;
+    background-color: #8b5e3c;
+}
+button:hover{
+    background-color: red;
+}
+footer{
+    text-align: center;
+}
+body{
+    background-color: #6f4e37;
+    color: white;
+    font-size: large;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.logo{
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
